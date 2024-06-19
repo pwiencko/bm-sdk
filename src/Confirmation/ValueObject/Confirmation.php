@@ -23,13 +23,13 @@ class Confirmation extends AbstractValueObject implements SerializableInterface,
      * @var string
      * @Type("string")
      */
-    private $ServiceID;
+    private string $ServiceID;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $OrderID;
+    private string $OrderID;
 
     /**
      * Transaction hash.
@@ -37,7 +37,7 @@ class Confirmation extends AbstractValueObject implements SerializableInterface,
      * @var string
      * @Type("string")
      */
-    private $Hash;
+    private string $Hash;
 
     /**
      * @return string

@@ -11,25 +11,25 @@ final class Regulation
      * @var string
      * @Type("string")
      */
-    private $regulationID;
+    private string $regulationID;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $url;
+    private string $url;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $type;
+    private string $type;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $language;
+    private string $language;
 
     /**
      * @return string

@@ -13,7 +13,7 @@ final class Regulations
      * @XmlList(inline = true, entry = "regulation")
      * @Type("array<BlueMedia\RegulationList\ValueObject\RegulationListResponse\Regulation>")
      */
-    private $regulation;
+    private array $regulation;
 
     /**
      * @return Regulation

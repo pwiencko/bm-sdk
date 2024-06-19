@@ -33,7 +33,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $serviceID;
+    protected string $serviceID;
 
     /**
      * Transaction order id.
@@ -41,7 +41,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $orderID;
+    protected string $orderID;
 
     /**
      * Remote order id.
@@ -49,7 +49,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $remoteID;
+    protected string $remoteID;
 
     /**
      * Transaction amount.
@@ -57,7 +57,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $amount;
+    protected string $amount;
 
     /**
      * Transaction currency.
@@ -65,7 +65,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $currency;
+    protected string $currency;
 
     /**
      * Transaction gateway id.
@@ -73,7 +73,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var int
      * @Type("int")
      */
-    protected $gatewayID;
+    protected int $gatewayID;
 
     /**
      * Payment date. YYYYMMDDhhmmss
@@ -81,7 +81,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $paymentDate;
+    protected string $paymentDate;
 
     /**
      * Payment status.
@@ -89,7 +89,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $paymentStatus;
+    protected string $paymentStatus;
 
     /**
      * Payment status details.
@@ -97,7 +97,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $paymentStatusDetails;
+    protected string $paymentStatusDetails;
 
     /**
      * Customer data.
@@ -105,7 +105,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var CustomerData
      * @Type("BlueMedia\Itn\ValueObject\CustomerData")
      */
-    protected $customerData;
+    protected CustomerData $customerData;
 
     /**
      * Itn hash.
@@ -113,7 +113,7 @@ final class Itn extends AbstractValueObject implements SerializableInterface, Ha
      * @var string
      * @Type("string")
      */
-    protected $hash;
+    protected string $hash;
 
     public function isHashPresent(): bool
     {

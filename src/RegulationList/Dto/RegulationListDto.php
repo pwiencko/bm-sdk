@@ -14,7 +14,7 @@ final class RegulationListDto extends AbstractDto
      * @var RegulationList
      * @Type("BlueMedia\RegulationList\ValueObject\RegulationList")
      */
-    private $regulationList;
+    private RegulationList $regulationList;
 
     /**
      * @return RegulationList

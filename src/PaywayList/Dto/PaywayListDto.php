@@ -14,7 +14,7 @@ final class PaywayListDto extends AbstractDto
      * @var PaywayList
      * @Type("BlueMedia\PaywayList\ValueObject\PaywayList")
      */
-    private $paywayList;
+    private PaywayList $paywayList;
 
     /**
      * @return PaywayList

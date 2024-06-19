@@ -5,6 +5,7 @@ namespace BlueMedia\Itn\ValueObject\ItnResponse;
 
 use BlueMedia\Serializer\SerializableInterface;
 use BlueMedia\Serializer\Serializer;
+use BlueMedia\Itn\ValueObject\ItnResponse\TransactionsConfirmations;
 use JMS\Serializer\Annotation\AccessorOrder;
 use JMS\Serializer\Annotation\XmlRoot;
 use JMS\Serializer\Annotation\Type;
@@ -25,19 +26,19 @@ class ItnResponse implements SerializableInterface
      * @var string
      * @Type("string")
      */
-    private $serviceID;
+    private string $serviceID;
 
     /**
      * @var TransactionsConfirmations
      * @Type("BlueMedia\Itn\ValueObject\ItnResponse\TransactionsConfirmations")
      */
-    private $transactionsConfirmations;
+    private TransactionsConfirmations $transactionsConfirmations;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $hash;
+    private string $hash;
 
     /**
      * @return string

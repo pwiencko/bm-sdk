@@ -25,19 +25,19 @@ final class TransactionInit extends Transaction
      * @var string
      * @Type("string")
      */
-    private $confirmation;
+    private string $confirmation;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $reason;
+    private string $reason;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $paymentStatus;
+    private string $paymentStatus;
 
     /**
      * @return string

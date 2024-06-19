@@ -31,7 +31,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $fName;
+    protected string $fName;
 
     /**
      * Customer lastname.
@@ -39,7 +39,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $lName;
+    protected string $lName;
 
     /**
      * Customer street name.
@@ -47,7 +47,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $streetName;
+    protected string $streetName;
 
     /**
      * Customer house number.
@@ -55,7 +55,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $streetHouseNo;
+    protected string $streetHouseNo;
 
     /**
      * Customer staircase number.
@@ -63,7 +63,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $streetStaircaseNo;
+    protected string $streetStaircaseNo;
 
     /**
      * Customer premise number.
@@ -71,7 +71,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $streetPremiseNo;
+    protected string $streetPremiseNo;
 
     /**
      * Customer postal code.
@@ -79,7 +79,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $postalCode;
+    protected string $postalCode;
 
     /**
      * Customer city.
@@ -87,7 +87,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $city;
+    protected string $city;
 
     /**
      * Customer bank account number.
@@ -95,7 +95,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $nrb;
+    protected string $nrb;
 
     /**
      * Merged customer data.
@@ -103,7 +103,7 @@ final class CustomerData extends AbstractValueObject implements SerializableInte
      * @var string
      * @Type("string")
      */
-    protected $senderData;
+    protected string $senderData;
 
     /**
      * @return string

@@ -5,6 +5,7 @@ namespace BlueMedia\Itn\ValueObject\ItnResponse;
 
 use JMS\Serializer\Annotation\Type;
 use BlueMedia\Serializer\SerializableInterface;
+use BlueMedia\Itn\ValueObject\ItnResponse\TransactionConfirmed;
 
 final class TransactionsConfirmations implements SerializableInterface
 {
@@ -12,7 +13,7 @@ final class TransactionsConfirmations implements SerializableInterface
      * @var TransactionConfirmed
      * @Type("BlueMedia\Itn\ValueObject\ItnResponse\TransactionConfirmed")
      */
-    private $transactionConfirmed;
+    private TransactionConfirmed $transactionConfirmed;
 
     /**
      * @return TransactionConfirmed

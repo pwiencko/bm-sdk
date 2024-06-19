@@ -14,7 +14,7 @@ final class TransactionDto extends AbstractDto implements TransactionDtoInterfac
      * @var Transaction
      * @Type("BlueMedia\Transaction\ValueObject\Transaction")
      */
-    private $transaction;
+    private Transaction $transaction;
 
     /**
      * Language used in html form with redirect to BlueMedia paywall.

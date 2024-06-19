@@ -23,13 +23,13 @@ final class TransactionContinue extends Transaction
      * @var string
      * @Type("string")
      */
-    private $status;
+    private string $status;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $redirecturl;
+    private string $redirecturl;
 
     /**
      * @return string

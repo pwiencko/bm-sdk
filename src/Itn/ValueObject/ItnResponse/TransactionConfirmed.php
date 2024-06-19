@@ -20,13 +20,13 @@ final class TransactionConfirmed implements SerializableInterface
      * @var string
      * @Type("string")
      */
-    private $orderID;
+    private string $orderID;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $confirmation;
+    private string $confirmation;
 
     /**
      * @return string

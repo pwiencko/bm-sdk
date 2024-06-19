@@ -13,7 +13,7 @@ final class PaywayListResponse extends PaywayList
      * @XmlList(inline = true, entry = "gateway")
      * @Type("array<BlueMedia\PaywayList\ValueObject\PaywayListResponse\Gateway>")
      */
-    private $gateways;
+    private array $gateways;
 
     /**
      * @return array

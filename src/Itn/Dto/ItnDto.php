@@ -16,7 +16,7 @@ final class ItnDto extends AbstractDto implements SerializableInterface
      * @Type("BlueMedia\Itn\ValueObject\Itn")
      * @XmlList(inline = true, entry = "transaction")
      */
-    private $itn;
+    private Itn $itn;
 
     /**
      * @return Itn

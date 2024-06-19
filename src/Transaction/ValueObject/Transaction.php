@@ -53,7 +53,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $serviceID;
+    protected string $serviceID;
 
     /**
      * Transaction order id.
@@ -61,7 +61,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $orderID;
+    protected string $orderID;
 
     /**
      * Transaction amount.
@@ -69,7 +69,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $amount;
+    protected string $amount;
 
     /**
      * Transaction description.
@@ -77,7 +77,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $description;
+    protected string $description;
 
     /**
      * Transaction gateway id.
@@ -93,7 +93,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $currency;
+    protected string $currency;
 
     /**
      * Transaction customer e-mail address.
@@ -101,7 +101,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $customerEmail;
+    protected string $customerEmail;
 
     /**
      * Transaction customer bank account number.
@@ -109,7 +109,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $customerNRB;
+    protected string $customerNRB;
 
     /**
      * Transaction tax country.
@@ -117,7 +117,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $taxCountry;
+    protected string $taxCountry;
 
     /**
      * Customer IP address.
@@ -125,7 +125,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $customerIP;
+    protected string $customerIP;
 
     /**
      * Transaction title.
@@ -133,7 +133,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $title;
+    protected string $title;
 
     /**
      * Transaction receiver name.
@@ -141,7 +141,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $receiverName;
+    protected string $receiverName;
 
     /**
      * Transaction validity time.
@@ -149,7 +149,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var DateTime
      * @Type("DateTime<'Y-m-d H:i:s'>")
      */
-    protected $validityTime;
+    protected DateTime $validityTime;
 
     /**
      * Transaction link validity time.
@@ -157,7 +157,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var DateTime
      * @Type("DateTime<'Y-m-d H:i:s'>")
      */
-    protected $linkValidityTime;
+    protected DateTime $linkValidityTime;
 
     /**
      * Transaction authorization code.
@@ -165,7 +165,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $authorizationCode;
+    protected string $authorizationCode;
 
     /**
      * Screen tpe for payment authorization (only for card payment).
@@ -173,7 +173,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $screenType;
+    protected string $screenType;
 
     /**
      * BLIK Alias UID key.
@@ -181,7 +181,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $blikUIDKey;
+    protected string $blikUIDKey;
 
     /**
      * BLIK Alias UID label.
@@ -189,7 +189,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $blikUIDLabel;
+    protected string $blikUIDLabel;
 
     /**
      * BLIK banks mobile application key.
@@ -197,7 +197,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $blikAMKey;
+    protected string $blikAMKey;
 
     /**
      * return address.
@@ -205,25 +205,25 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $returnURL;
+    protected string $returnURL;
 
     /**
      * @var string
      * @Type("string")
      */
-    protected $defaultRegulationAcceptanceState;
+    protected string $defaultRegulationAcceptanceState;
 
     /**
      * @var string
      * @Type("string")
      */
-    protected $defaultRegulationAcceptanceID;
+    protected string $defaultRegulationAcceptanceID;
 
     /**
      * @var DateTime
      * @Type("DateTime<'Y-m-d H:i:s'>")
      */
-    protected $defaultRegulationAcceptanceTime;
+    protected DateTime $defaultRegulationAcceptanceTime;
 
     /**
      * Receiver bank account number.
@@ -231,7 +231,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $receiverNRB;
+    protected string $receiverNRB;
 
     /**
      * Receiver address.
@@ -239,7 +239,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $receiverAddress;
+    protected string $receiverAddress;
 
     /**
      * Remote order id.
@@ -247,7 +247,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $remoteID;
+    protected string $remoteID;
 
     /**
      * Banks system URL.
@@ -255,7 +255,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $bankHref;
+    protected string $bankHref;
 
     /**
      * Transaction hash.
@@ -263,7 +263,7 @@ class Transaction extends AbstractValueObject implements SerializableInterface, 
      * @var string
      * @Type("string")
      */
-    protected $hash;
+    protected string $hash;
 
     public function isHashPresent(): bool
     {

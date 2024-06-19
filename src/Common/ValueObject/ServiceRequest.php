@@ -20,19 +20,19 @@ class ServiceRequest extends AbstractValueObject
      * @var string
      * @Type("string")
      */
-    protected $serviceID;
+    protected string $serviceID;
 
     /**
      * @var string
      * @Type("string")
      */
-    protected $messageID;
+    protected string $messageID;
 
     /**
      * @var string
      * @Type("string")
      */
-    protected $hash;
+    protected string $hash;
 
     /**
      * @param string $serviceID

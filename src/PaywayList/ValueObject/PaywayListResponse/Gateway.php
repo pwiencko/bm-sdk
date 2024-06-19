@@ -11,37 +11,37 @@ final class Gateway
      * @var int
      * @Type("int")
      */
-    private $gatewayID;
+    private int $gatewayID;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $gatewayName;
+    private string $gatewayName;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $gatewayType;
+    private string $gatewayType;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $bankName;
+    private string $bankName;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $iconURL;
+    private string $iconURL;
 
     /**
      * @var string
      * @Type("string")
      */
-    private $statusDate;
+    private string $statusDate;
 
     /**
      * @return int

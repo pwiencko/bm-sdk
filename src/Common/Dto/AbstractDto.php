@@ -13,13 +13,13 @@ abstract class AbstractDto
      * @var string
      * @Type("string");
      */
-    protected $gatewayUrl;
+    protected string $gatewayUrl;
 
     /**
      * @var Request
      * @Type("BlueMedia\HttpClient\ValueObject\Request");
      */
-    protected $request;
+    protected Request $request;
 
     /**
      * @return string
